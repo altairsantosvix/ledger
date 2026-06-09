@@ -1,0 +1,20 @@
+version: "3.9"
+
+services:
+  payment-service:
+    env_file:
+      - ./infra/secrets/development.env
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev
+
+  ledger-service:
+    env_file:
+      - ./infra/secrets/development.env
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev
+
+  fraud-service:
+    env_file:
+      - ./infra/secrets/development.env
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev

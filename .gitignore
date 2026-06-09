@@ -1,0 +1,16 @@
+# Ignore generated secrets and environment files
+infra/secrets/production.env
+infra/secrets/development.env
+infra/secrets/secrets.env
+infra/secrets/raw.json
+
+# Ignore Maven output
+**/target/
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/release.properties
+**/dependency-reduced-pom.xml
+
+# Ignore Docker build artifacts
+**/*.jar
