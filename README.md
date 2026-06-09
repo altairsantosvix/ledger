@@ -50,7 +50,7 @@ Arquivos de exemplo:
 ### Gerar secrets a partir do AWS Secrets Manager
 
 ```bash
-cd /Users/altairsantos/projetos/Ledger
+cd /path/to/project
 ./infra/secrets/fetch-secrets.sh infra/secrets/production.env
 ```
 
@@ -73,14 +73,14 @@ Para desenvolvimento:
 ## Executando em produção
 
 ```bash
-cd /Users/altairsantos/projetos/Ledger
+cd /path/to/project
 docker compose up --build
 ```
 
 ## Executando em desenvolvimento
 
 ```bash
-cd /Users/altairsantos/projetos/Ledger
+cd /path/to/project
 docker compose -f docker-compose.yml -f docker-compose.dev.yml up --build
 ```
 

@@ -24,7 +24,7 @@ This guide describes how to deploy the Ledger banking platform in a production-l
 1. Generate or obtain the production secret file:
 
 ```bash
-cd /Users/altairsantos/projetos/Ledger
+cd /path/to/project
 ./infra/secrets/fetch-secrets.sh infra/secrets/production.env
 ```
 
